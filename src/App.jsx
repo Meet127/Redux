@@ -1,10 +1,15 @@
 import './App.css'
+import Navrbar from './Navrbar'
+import Shop from './Shop'
 
 function App() {
 
   return (
     <>
-      <h1>I am React developer</h1>
+      <Navrbar/>
+    <div className="container">
+      <Shop/>
+      </div>
     </>
   )
 }
